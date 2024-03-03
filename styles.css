@@ -1,4 +1,4 @@
-:root{
+:root {
     --accent-color: hsl(75, 94%, 57%);
     --background-color: hsl(0, 0%, 8%);
     --profile-card-color: hsl(0, 0%, 12%);
@@ -11,74 +11,77 @@
     font-family: 'Inter', sans-serif;
 }
 
-body{
+body {
     width: 1440px;
     background-color: var(--background-color);
 }
 
 main {
-   /* outline: 3px dotted orange;*/
+    /* outline: 3px dotted orange;*/
     /*margin: 0 auto;*/
-    width: 550px;
+    width: 400px;
     background-color: var(--profile-card-color);
     border-radius: 10px;
     padding: 40px 0 25px 0;
 }
 
-/***User Div Styles***/
-#user-section{
+/***User Section Styles***/
+
+#user-section {
     text-align: center;
-   /* outline: 3px dotted purple;*/
+    /* outline: 3px dotted purple;*/
 }
 
-img{
+img {
     border-radius: 50%;
     width: 90px;
 }
 
-h1{
+h1 {
     font-weight: 600;
     color: var(--main-font-color);
     margin-bottom: 0;
 }
 
-p{
+p {
     font-size: 14px;
 }
 
-#description{
+#description {
     color: var(--main-font-color);
-    margin: 30px 0 20px 0;
+    margin: 30px 0 25px 0;
 }
 
-#location{
+#location {
     font-weight: 700;
     color: var(--accent-color);
     margin-top: 8px;
 }
 
-#buttons-section{
+/***Buttons Section Styles***/
+
+#buttons-section {
     align-items: center;
     justify-content: center;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-button{
+button {
     display: block;
     border: none;
     color: white;
     background-color: var(--button-color);
     font-weight: 700;
-    width: 500px;
-    height: 45px;
-    margin: 8px 0 20px 25px;
+    width: 340px;
+    height: 48px;
+    margin: 8px 0 18px 30px;
     border-radius: 8px;
 }
 
-button:hover{
+button:hover {
     color: var(--background-color);
     background-color: var(--accent-color);
     cursor: pointer;
@@ -86,5 +89,12 @@ button:hover{
 
 
 /***Attribution Styles***/
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: var(--main-font-color);
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
